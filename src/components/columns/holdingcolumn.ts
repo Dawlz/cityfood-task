@@ -1,3 +1,4 @@
+import { Column } from "react-table";
 interface holdingColumn {
     name: string;
     ticker: string;
@@ -7,7 +8,6 @@ interface holdingColumn {
     latest_chg_pct : number;
     market_value_ccy: number;
 }
-import { Column } from "react-table";
 
 const Columns: Column<holdingColumn>[] = [
     {
